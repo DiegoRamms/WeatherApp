@@ -5,7 +5,6 @@ import androidx.appcompat.app.AppCompatActivity
 import androidx.fragment.app.commit
 import com.dbappgame.weatherchallenge.R
 import com.dbappgame.weatherchallenge.databinding.ActivityWeatherBinding
-import com.dbappgame.weatherchallenge.utils.CITY_KEY
 import dagger.hilt.android.AndroidEntryPoint
 
 @AndroidEntryPoint

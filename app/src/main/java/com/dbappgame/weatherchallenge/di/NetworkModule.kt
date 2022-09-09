@@ -5,7 +5,6 @@ import com.dbappgame.weatherchallenge.data.networkdatasource.service.WeatherServ
 import dagger.Module
 import dagger.Provides
 import dagger.hilt.InstallIn
-import dagger.hilt.android.AndroidEntryPoint
 import dagger.hilt.components.SingletonComponent
 import okhttp3.OkHttpClient
 import okhttp3.logging.HttpLoggingInterceptor

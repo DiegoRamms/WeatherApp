@@ -21,7 +21,7 @@ class WeatherViewModel @Inject constructor(private val repository: ForecastRepos
 
 
     fun getForecast(city: String){
-        viewModelScope.launch( CoroutineExceptionHandler { _, throwable ->
+        viewModelScope.launch( CoroutineExceptionHandler { _, _ ->
             _forecastSate.value = _forecastSate.updateAndGet { it.copy(isLoading = false, error = "Salir y elegir otra opción") }
         }) {
             _forecastSate.value = _forecastSate.updateAndGet {
